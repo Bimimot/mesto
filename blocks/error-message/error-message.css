@@ -1,0 +1,25 @@
+.error-message{
+    color: #FF0000;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: Inter;
+    margin: 0px;
+    margin-bottom: 15px;
+    
+}
+
+
+.error-message_type_name{
+    /*opacity: 0;*/
+}
+.error-message_type_job{
+    /*opacity: 0;*/
+}
+
+.error-message_type_title{
+     /*opacity: 0;*/
+}
+
+.error-message_type_link{
+    /*opacity: 0;*/
+}

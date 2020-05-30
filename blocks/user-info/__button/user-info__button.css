@@ -1,0 +1,7 @@
+@import url(./_type/user-info__button_type_add-place.css);
+@import url(./_type/user-info__button_type_edit-profile.css);
+
+.user-info__button {
+  
+  cursor: pointer;
+}

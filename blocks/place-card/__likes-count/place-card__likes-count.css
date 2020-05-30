@@ -1,0 +1,8 @@
+.place-card__likes-count{
+    margin: 0;
+    margin-top: 3px;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: normal;
+        font-style: normal;
+}
