@@ -79,9 +79,9 @@ import UserInfo from '../js/UserInfo.js';
   
     const validator = new FormValidator(errorsMessages);                               //создаем валидатор, передаем тексты ошибок
   
-    editProfilePopup = new Popup(popupProfileContainer, '.user-info__button_type_edit-profile', validator);
-    editAvatarPopup = new Popup(popupAvatarContainer, '.user-info__photo', validator)
-    plusCardPopup = new Popup(popupAddCardContainer, '.user-info__button_type_add-place', validator);
+    const editProfilePopup = new Popup(popupProfileContainer, '.user-info__button_type_edit-profile', validator);
+    const editAvatarPopup = new Popup(popupAvatarContainer, '.user-info__photo', validator)
+    const plusCardPopup = new Popup(popupAddCardContainer, '.user-info__button_type_add-place', validator);
 
   
   
