@@ -1,4 +1,4 @@
-class UserInfo {
+export default class UserInfo {
     constructor(formElement, profileElement, api) {
         this.api = api;
         this.formElement = formElement;

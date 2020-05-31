@@ -1,4 +1,4 @@
-class Avatar {
+export default class Avatar {
     constructor(formElement, avatarElement, api) {
         this.api = api;
         this.formElement = formElement;
