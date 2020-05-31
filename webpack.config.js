@@ -11,16 +11,26 @@ module.exports = {
     },
     module: {
         rules: [{
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader"
-                }
-            },
-            {
-                test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader']
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: {
+                loader: "babel-loader"
             }
+        },
+        {
+            test: /\.css$/,
+            use: [MiniCssExtractPlugin.loader, 'css-loader']
+        },
+        {
+            test: /\.(png|jpg|gif|ico|svg)$/,
+            use: [
+                'file-loader?name=../images/[name].[ext]', // указали папку, куда складывать изображения
+                {
+                    loader: 'image-webpack-loader',
+                    options: {}
+                },
+            ]
+        }
         ]
     },
     plugins: [
