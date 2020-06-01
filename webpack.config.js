@@ -46,7 +46,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({ // настроили плагин
             inject: false,
-            template: './src/index.html',
+            template: './index.html',
             filename: 'index.html'
         }),
         new webpack.DefinePlugin({
