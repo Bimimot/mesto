@@ -33,7 +33,7 @@ import UserInfo from './js/UserInfo.js';
       validateUrl: 'Здесь должна быть ссылка'
     }
 
-    const serverUrl = (NODE_ENV === 'development') ? 'https://praktikum.tk/cohort10' : 'http://praktikum.tk/cohort10',
+    const serverUrl = (NODE_ENV === 'development') ? 'http://praktikum.tk/cohort10' : 'https://praktikum.tk/cohort10';
     const api = new Api({
       baseUrl: serverUrl,
       headers: {
