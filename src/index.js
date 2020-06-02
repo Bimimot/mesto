@@ -1,13 +1,13 @@
-import "../pages/index.css";
+import "./pages/index.css";
 
-import Api from '../js/Api.js';
-import Avatar from '../js/Avatar.js';
-import Card from '../js/Card.js';
-import CardList from '../js/CardList.js';
-import FormValidator from '../js/FormValidator.js';
-import PlusCard from '../js/PlusCard.js';
-import Popup from '../js/Popup.js';
-import UserInfo from '../js/UserInfo.js';
+import Api from './js/Api.js';
+import Avatar from './js/Avatar.js';
+import Card from './js/Card.js';
+import CardList from './js/CardList.js';
+import FormValidator from './js/FormValidator.js';
+import PlusCard from './js/PlusCard.js';
+import Popup from './js/Popup.js';
+import UserInfo from './js/UserInfo.js';
 
     //dom-элементы, для работы с методами классов
     const mainContainer = document.querySelector('.root');                            //основной контейнер, нужен для слушания keydown
