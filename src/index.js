@@ -35,7 +35,7 @@ import UserInfo from '../js/UserInfo.js';
 
 
     const api = new Api({
-      baseUrl: 'https://praktikum.tk/cohort10',
+      baseUrl: NODE_ENV === 'development' ? 'https://praktikum.tk/cohort10' : 'http://praktikum.tk/cohort10',
       headers: {
         authorization: 'caf701ff-6f39-4585-92c8-ebdddadba86b',
         'Content-Type': 'application/json'
