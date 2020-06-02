@@ -533,7 +533,7 @@ template {
 }
 
 .place-card__delete-icon {
-  background: url(../images/trash-icon.svg) center no-repeat;
+  background: url(./images/trash-icon.svg) center no-repeat;
   background-color: transparent;
   border: none;
   width: 18px;
@@ -567,7 +567,7 @@ template {
 }
 
 .place-card__like-icon {
-  background: url(../images/like-inactive.svg) center no-repeat;
+  background: url(./images/like-inactive.svg) center no-repeat;
   background-color: transparent;
   width: 21px;
   height: 19px;
@@ -577,7 +577,7 @@ template {
 }
 
 .place-card__like-icon_liked {
-  background-image: url(../images/like-active.svg);
+  background-image: url(./images/like-active.svg);
 }
 
 .place-card__like-icon:hover {
