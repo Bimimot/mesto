@@ -1,4 +1,4 @@
-class FormValidator {
+export default class FormValidator {
   constructor(errorsMessages) {
     this.errorsMessages = errorsMessages;
     this.checkInputValidaty = this.checkInputValidaty.bind(this);

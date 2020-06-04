@@ -1,4 +1,4 @@
-class Card {
+export default class Card {
     constructor(value, myId, api) {
         this.name = value.name;
         this.link = value.link;

@@ -1,4 +1,4 @@
-class Popup {
+export default class Popup {
   constructor(container, buttonSelector, validator) {
     this.container = container;
     this.formElement = container.querySelector('.popup__form');

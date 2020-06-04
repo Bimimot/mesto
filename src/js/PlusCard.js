@@ -1,4 +1,4 @@
-class PlusCard {
+export default class PlusCard {
     constructor(formElement, doList, api) {
         this.doList = doList;
         this.api = api;
